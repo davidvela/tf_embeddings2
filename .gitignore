@@ -1,0 +1,75 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+*.ipynb_checkpoints
+
+
+# data science
+/TensorFlow/UnST/my_graph
+./data/*
+/models 
+/pc_Design 
+/pDesign 
+/my_graph/03/linear_reg
+fp1.py
+fp.py
+
+*.pdf
+*.SUNet
+*.pyc
+
+examples/checkpoints/*
+examples/chatbot/processed/*
+examples/chatbot/checkpoints/*
+examples/chatbot/data_analysis.py
+assignments/chatbot/processed/*
+
+
+
+#In three steps, you can clean up your repository and make sure your ignored items are indeed ignored:
+#$ git rm -r --cached .
+#$ git add .
+#$ git commit -m "Clean up ignored files"
+
+git rm -r ./data
+
+
+# NODEJS
+
+# compiled output
+/dist
+/tmp
+
+# dependencies
+/node_modules
+
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+
+# IDE - VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+#System Files
+.DS_Store
+Thumbs.db
