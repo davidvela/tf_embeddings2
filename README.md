@@ -10,3 +10,5 @@ visualize embeedings model in tensorboard - visualizations...
 * PCA (Principle Component Analysis)
 * W3SVC (Internet Logs)
 * Word2Vec
+* web 
+    * web ABAP / FLASK / FLASK_RESTPLUS
