@@ -12,3 +12,5 @@ visualize embeedings model in tensorboard - visualizations...
 * Word2Vec
 * web 
     * web ABAP / FLASK / FLASK_RESTPLUS
+
+
